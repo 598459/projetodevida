@@ -69,7 +69,23 @@ body {
     display: block;
 }
 
-.ativo{
+.botaoativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
+ }  
 
+  .abas-textos{
+        background-color: var(--texto-fundo);
+        padding: 40px;
+        border-radius: 0 0;
+    }
+    
+.aba-conteudo.ativo{
+display: block;
+
+}
+
+
+.aba-conteudo{
+    display:none;
+}
