@@ -74,6 +74,9 @@ body {
 .aba-conteudo.ativo{
     display:block;   
 }
+.aba-conteudo{
+    display: none;
+}
 
 .aba-conteudo-titulo-principal{
     font-size: 28px;
