@@ -28,7 +28,6 @@ function atualizaCronometro(){
     }
 }
 
-
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
 
 function calculaTempo(tempoObjetivo) {
@@ -51,5 +50,9 @@ function atualizaCronometro(){
         contadores[i].textContent = calculaTempo(tempos[i]);
     }
 }
-atualizaCronometro();
-setInterval(atualizaCronometro(), 1000);
+function comecaCronometro(){
+    atualizaCronometro();
+    setInterval(atualizaCronometro(), 1000);
+
+}
+comecaCronometro();
