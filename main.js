@@ -31,7 +31,7 @@ function atualizaCronometro(){
 atualizaCronometro();
 setInterval(atualizaCronometro,1000);
 
-function calculaTempo(tempoObjetivo){
+function calculaTempo(tempoObjetivo) {
     let tempoAtual = new Date();
     let tempoFinal = tempoObjetivo - tempoAtual;
     let segundos = Math.floor(tempoFinal/1000);
